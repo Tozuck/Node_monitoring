@@ -2,7 +2,7 @@
 
 # Set Node Exporter version
 NODE_EXPORTER_VERSION="1.9.0"
-
+ufw allow 9100
 # Download and extract Node Exporter
 cd /tmp
 echo "Downloading Node Exporter v$NODE_EXPORTER_VERSION..."
